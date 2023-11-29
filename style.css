@@ -21,7 +21,9 @@ nav {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
+  width: 25%;
+  height: 300px;
   text-decoration: none;
   background: #d3d953;
   /*height: 300px;  only for demonstration, should be removed */
@@ -36,9 +38,10 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 100%;
+  width: 75%;
   text-align: center;
   background-color: #d3d953;
+  height: 300px;
   /* height: 300px;  only for demonstration, should be removed */
 }
 
