@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* Style the header */
@@ -17,12 +17,14 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  overflow: hidden;
-  display: block;
   float: left;
-  /*height: 300px;  only for demonstration, should be removed */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   background: #d3d953;
- padding: 14px 16px;
+  /*height: 300px;  only for demonstration, should be removed */
 }
 
 /* Style the list inside the menu */
